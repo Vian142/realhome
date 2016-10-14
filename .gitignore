@@ -1,0 +1,8 @@
+node_modules/
+app/bower-libs/
+
+
+src/
+dist/
+psd/
+.idea/

@@ -1,0 +1,87 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title RealHome index
+        meta(name='description', content='')
+        meta(name='robots', content='noindex, nofollow')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+        meta(name='theme-color', content='#2f8eaa')
+        link(rel='stylesheet', href='css/libs.min.css')
+        link(rel='stylesheet', href='css/main.css')
+        link(rel='stylesheet', href='css/media.css')
+    body
+        include parts/header
+
+        .breadcrumbs-container
+            ul.breadcrumbs-list
+                li.breadcrumbs-list__item
+                    a(href="#").breadcrumbs-list__item__link
+                        | home
+                li.breadcrumbs-list__item
+                    a(href="#").breadcrumbs-list__item__link
+                        | about as
+        section.section-about
+            .section-about__wrapper
+                .section-about__wrapper__left-block
+                .section-about__wrapper__right-block
+                    p
+                        | Quisque diam lorem interdum vitaapibus ac
+                        | scelerisque vitae pede. Donec eget tellus non erat
+                        | lacinia fertum. Donec in velit vel ipsum auctovinar.
+                        | Proin umcorper urna et felisstibulum iaculis lacinia est.
+                        | Proin dictum elem entum velit fusce euismod. Aenean commodo
+                        | ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet,
+                        | consec tetuer adipis elit, aliquam eget nibh etlibura. Lorem
+                        | ipsum dolor sitamet, consetetur sadipscing elitr.
+                    p
+                        | Agent info ipsum dolor sit amet, consectetuer adipiscing elit,
+                        | sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                        | aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                        | nostrud tation ullamcorper suscipit lobortis nisl ut aliquip
+                        | ex ea commodo consequat. Ut wisi enim ad minim veniam, quis
+                        | nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                        | aliquip ex ea commodo consequat. Consectetuer adipiscing elit,
+                        | sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                        | aliquam erat volutpat nostrud tation ullamcorper nonummy nibh.
+
+        include parts/feauters
+
+        section.section-our-team
+            .section-our-team__wrapper
+            h2.title-section
+                | Our team
+            .our-team-block
+                .our-team-block__item
+                    .our-team-block__item__avatar-block
+                        img(src="http://placehold.it/260x290").our-team-block__item__avatar-block__image
+                    .our-team-block__item__name-person
+                        | Maria Spilberg
+                    .our-team-block__item__position-person
+                        | manager
+                .our-team-block__item
+                    .our-team-block__item__avatar-block
+                        img(src="http://placehold.it/260x290").our-team-block__item__avatar-block__image
+                    .our-team-block__item__name-person
+                        | Stan Barnard
+                    .our-team-block__item__position-person
+                        | agent
+                .our-team-block__item
+                    .our-team-block__item__avatar-block
+                        img(src="http://placehold.it/260x290").our-team-block__item__avatar-block__image
+                    .our-team-block__item__name-person
+                        | Phillip Morris
+                    .our-team-block__item__position-person
+                        | agent
+                .our-team-block__item
+                    .our-team-block__item__avatar-block
+                        img(src="http://placehold.it/260x290").our-team-block__item__avatar-block__image
+                    .our-team-block__item__name-person
+                        | Andy Zuckerberg
+                    .our-team-block__item__position-person
+                        | Accoung manager
+
+        include parts/get-subscribe
+
+        include parts/footer
