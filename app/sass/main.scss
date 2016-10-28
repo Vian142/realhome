@@ -239,5 +239,46 @@ p {
 
 @import "parts/our-team";
 
+/* about - section section-about*/
+.section-about {
+  padding: 5px 0 15px;
+  &__title-section {
+    font-size: 36px;
+    font-family: $font-family-1;
+    color: $color-main;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+    margin: 5px 0 15px;
+    padding: 5px 0;
+  }
+  &__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    &__left-block {
+      box-sizing: border-box;
+      padding-right: 10px;
+      flex: 0 0 50%;
+    }
+    &__right-block {
+      box-sizing: border-box;
+      padding-left: 10px;
+    }
+  }
+}
+
+.content-about-us {
+  p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: $font-family-3;
+    color: $color-text;
+    line-height: 1.5;
+    text-align: left;
+  }
+}
+
+
+@import 'parts/get-subscribe';
 
 @import "parts/footer";

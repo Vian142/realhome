@@ -1,24 +1,30 @@
 .breadcrumbs-list {
   padding: 10px 0;
   margin: 10px 0;
+  &--center {
+    text-align: center;
+  }
   &__item {
     list-style: none;
     display: inline-block;
+    font-size: 16px;
+    font-family: $font-family-1;
+    color: $color-red;
+    line-height: 1;
+    text-align: left;
+    margin-right: 5px;
+    font-weight: bold;
     &__link {
-      font-size: 14px;
-      font-family: $font-family-1;
-      color: $color-text;
-      line-height: 1;
-      text-align: left;
-      margin-right: 5px;
+      color: inherit;
       text-decoration: none;
       font-weight: bold;
-      &--active{
-        color: $color-red;
-        font-weight: normal;
-      }
+    }
+    &--active {
+      color: $color-text;
+      font-weight: normal;
     }
     &__icon {
+      margin: 0 0 0 10px;
     }
   }
 }

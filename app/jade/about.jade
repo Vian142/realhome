@@ -2,7 +2,7 @@ doctype html
 html(lang='en')
     head
         meta(charset='utf-8')
-        title RealHome index
+        title RealHome About
         meta(name='description', content='')
         meta(name='robots', content='noindex, nofollow')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
@@ -17,39 +17,41 @@ html(lang='en')
         .breadcrumbs-container.container
             ul.breadcrumbs-list
                 li.breadcrumbs-list__item
-                    a(href="#").breadcrumbs-list__item__link.breadcrumbs-list__item__link--active
+                    a(href="#").breadcrumbs-list__item__link
                         | Home
                     i.fa.fa-angle-right.breadcrumbs-list__item__icon
-                li.breadcrumbs-list__item
-                    a(href="#").breadcrumbs-list__item__link
-                        | About as
+                li.breadcrumbs-list__item.breadcrumbs-list__item--active
+                    | About as
         section.section-about
-            .section-about__wrapper.container
-                .section-about__wrapper__left-block
-                    .content-about-us
-                        .content-about-us__img-wrap
-                            img(src="img/work/work-1.jpg").content-about-us__img-wrap__image
-                .section-about__wrapper__right-block
-                    .content-about-us
-                        p
-                            | Quisque diam lorem interdum vitaapibus ac
-                            | scelerisque vitae pede. Donec eget tellus non erat
-                            | lacinia fertum. Donec in velit vel ipsum auctovinar.
-                            | Proin umcorper urna et felisstibulum iaculis lacinia est.
-                            | Proin dictum elem entum velit fusce euismod. Aenean commodo
-                            | ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet,
-                            | consec tetuer adipis elit, aliquam eget nibh etlibura. Lorem
-                            | ipsum dolor sitamet, consetetur sadipscing elitr.
-                        p
-                            | Agent info ipsum dolor sit amet, consectetuer adipiscing elit,
-                            | sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                            | aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                            | nostrud tation ullamcorper suscipit lobortis nisl ut aliquip
-                            | ex ea commodo consequat. Ut wisi enim ad minim veniam, quis
-                            | nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                            | aliquip ex ea commodo consequat. Consectetuer adipiscing elit,
-                            | sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                            | aliquam erat volutpat nostrud tation ullamcorper nonummy nibh.
+            .container
+                h2.section-about__title-section
+                    | About <b>Our Company</b>
+                .section-about__wrapper
+                    .section-about__wrapper__left-block
+                        .content-about-us
+                            .content-about-us__img-wrap
+                                img(src="img/work/work-1.jpg").content-about-us__img-wrap__image
+                    .section-about__wrapper__right-block
+                        .content-about-us
+                            p
+                                | Quisque diam lorem interdum vitaapibus ac
+                                | scelerisque vitae pede. Donec eget tellus non erat
+                                | lacinia fertum. Donec in velit vel ipsum auctovinar.
+                                | Proin umcorper urna et felisstibulum iaculis lacinia est.
+                                | Proin dictum elem entum velit fusce euismod. Aenean commodo
+                                | ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet,
+                                | consec tetuer adipis elit, aliquam eget nibh etlibura. Lorem
+                                | ipsum dolor sitamet, consetetur sadipscing elitr.
+                            p
+                                | Agent info ipsum dolor sit amet, consectetuer adipiscing elit,
+                                | sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                                | aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                                | nostrud tation ullamcorper suscipit lobortis nisl ut aliquip
+                                | ex ea commodo consequat. Ut wisi enim ad minim veniam, quis
+                                | nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                | aliquip ex ea commodo consequat. Consectetuer adipiscing elit,
+                                | sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                                | aliquam erat volutpat nostrud tation ullamcorper nonummy nibh.
 
         include parts/feauters
 
