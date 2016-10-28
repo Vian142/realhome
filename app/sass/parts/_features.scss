@@ -1,0 +1,35 @@
+.section-feauters{
+  padding: 40px 0;
+  background: #fbfbfb;
+}
+
+.feauters-wrap {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  &__item {
+    text-align: center;
+    max-width: 230px;
+    &__icon-wrap {
+      font-size: 36px;
+      padding: 10px 0;
+      color: $color-main;
+    }
+    &__title-feauter {
+      padding: 10px 0;
+      font-size: 20px;
+      font-family: $font-family-1;
+      color: $color-main;
+      font-weight: bold;
+      line-height: 1;
+      text-align: center;
+    }
+    &__description-feauter {
+        font-size: 14px;
+        font-family: $font-family-3;
+        color: $color-text;
+        line-height: 1.5;
+        text-align: center;
+    }
+  }
+}

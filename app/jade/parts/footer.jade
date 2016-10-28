@@ -1,9 +1,9 @@
 footer.main-footer
-    .main-footer__wrapper
+    .main-footer__wrapper.container
         .main-footer__wrapper__footer-column
             .footer-logo
-                img(src="img/logo-footer.png").footer-logo__image
-            ul.social-list
+                img(src="img/logo-footer.svg").footer-logo__image
+            ul.social-list.social-list--footer
                 li.social-list__item
                     a(href="#").social-list__item__link
                         i.fa.fa-vk.social-list__item__link__icon
@@ -60,4 +60,20 @@ footer.main-footer
             h3.title-footer
                 | Contacts us
             .footer-contacts
-                | 240 central park, London OR 10019
+                p.footer-contacts__city
+                    | 240 central park, London OR 10019
+                p
+                    | Freephone:
+                    a(href="#").footer-contacts__link.footer-contacts__link--phone
+                        |  +7 800 595 64 45
+                p
+                    | Telephone:
+                    a(href="#").footer-contacts__link.footer-contacts__link--phone
+                        |  +7 885 423 65 80
+                p
+                    | Fax:
+                    a(href="#").footer-contacts__link.footer-contacts__link--phone
+                        |  +7 865 245 38 45
+                p
+                    a(href="#").footer-contacts__link.footer-contacts__link--email
+                        | info@realhome.com

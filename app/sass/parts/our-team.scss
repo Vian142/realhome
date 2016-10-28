@@ -1,0 +1,67 @@
+.section-our-team {
+  padding: 40px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    &__title-section {
+      font-family: $font-family-1;
+      font-size: 37px;
+      color: rgb(36, 36, 36);
+      line-height: 1.2;
+      font-weight: normal;
+      text-align: left;
+    }
+    &__additional-block {
+      &__link {
+        font-size: 20px;
+        font-family: $font-family-3;
+        color: $color-red;
+        text-decoration: underline;
+        font-weight: normal;
+        line-height: 1;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.our-team-block {
+  flex: 1 1 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  &__item {
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    &__avatar-block {
+      background: #f6f7f7;
+      &__image {
+      }
+    }
+    &__info-person {
+      padding: 15px 0.5em;
+      &__name-person {
+        font-size: 20px;
+        font-family: $font-family-1;
+        color: rgb(0, 0, 0);
+        line-height: 1;
+        text-align: center;
+        margin: 0;
+        padding: 5px 0;
+      }
+      &__position-person {
+        font-size: 14px;
+        font-family: $font-family-3;
+        color: rgb(121, 121, 121);
+        line-height: 1.5;
+        text-align: center;
+        margin: 0;
+        padding: 3px 0;
+      }
+    }
+  }
+}

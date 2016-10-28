@@ -1,0 +1,38 @@
+
+.social-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  &--footer {
+    padding: 5px 0;
+    margin: 10px 0 5px;
+  }
+  &__item {
+    display: block;
+    box-sizing: border-box;
+    margin: 2px;
+    height: 36px;
+    width: 36px;
+    background: #fff;
+    border: 2px solid #f2f2f2;
+    color: $color-main;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.2s ease;
+    &:focus,
+    &:hover {
+      border: 2px solid $color-main;
+      background: $color-main;
+      color: $color-white;
+    }
+    &__link {
+      text-align: center;
+      display: block;
+      color: inherit;
+      font-size: 1rem;
+      line-height: 32px;
+    }
+  }
+}

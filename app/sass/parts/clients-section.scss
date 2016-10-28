@@ -1,0 +1,32 @@
+.section-clients{
+  padding: 30px 0;
+}
+
+.clients-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  &__item{
+    box-sizing: border-box;
+    flex: 1 1 20%;
+    padding: 1em 2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &__content{
+        font-size: 28px;
+        font-family: $font-family-1;
+        color: rgb(60, 60, 60);
+        line-height: 1.2;
+        text-align: right;
+    }
+    &__logo-client{
+      margin: auto;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}

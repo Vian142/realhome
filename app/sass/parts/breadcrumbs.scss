@@ -1,0 +1,24 @@
+.breadcrumbs-list {
+  padding: 10px 0;
+  margin: 10px 0;
+  &__item {
+    list-style: none;
+    display: inline-block;
+    &__link {
+      font-size: 14px;
+      font-family: $font-family-1;
+      color: $color-text;
+      line-height: 1;
+      text-align: left;
+      margin-right: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      &--active{
+        color: $color-red;
+        font-weight: normal;
+      }
+    }
+    &__icon {
+    }
+  }
+}

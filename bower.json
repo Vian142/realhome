@@ -1,0 +1,20 @@
+{
+  "name": "RealHome blog",
+  "description": "RealHome blog",
+  "dependencies": {
+    "fontawesome": "^4.5.0",
+    "normalize-scss": "^4.0.0"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "authors": [
+    "Ivan Popov <vian142@gmail.com>"
+  ],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

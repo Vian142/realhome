@@ -38,23 +38,19 @@ gulp.task('sass', function () {
 });
 
 /*  сборка CSS библиотек и минификация    */
-gulp.task('css-libs', function () {
-    return gulp.src([
-        'app/css/vendor/*.css',
-        'app/bower-libs/normalize-css/normalize.css'
-    ]) // Выбираем файл для сборки
-        .pipe(cssconcat('./libs.min.css'))
-        .pipe(filesize({
-            title: 'CSS->',
-            showFiles: true
-        }))
-        .pipe(gulp.dest('app/css')); // Выгружаем в папку app/css
-});
+/*gulp.task('css-libs', function () {
+ return gulp.src() // Выбираем файл для сборки
+ .pipe(cssconcat('./libs.min.css'))
+ .pipe(filesize({
+ title: 'CSS->',
+ showFiles: true
+ }))
+ .pipe(gulp.dest('app/css')); // Выгружаем в папку app/css
+ });*/
 
 /*  сборка, сжатие и минификация скриптов   */
 gulp.task('scripts', function () {
     return gulp.src([ // Берем все необходимые библиотеки
-        
     ])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())
@@ -100,10 +96,9 @@ gulp.task('browser-sync', function () {
 });
 
 /*  Синхронизация   */
-gulp.task('watch', ['browser-sync', 'jade', 'css-libs', 'scripts'], function () {
+gulp.task('watch', ['browser-sync', 'jade', 'scripts'], function () {
     gulp.watch('app/sass/**/*.+(sass|scss)', ['sass']);
     gulp.watch('app/css/**/*.css');
-    gulp.watch('app/css/libs/*.sass', ['css-libs']);
     gulp.watch('app/*.html', browserSync.reload);
     gulp.watch('app/jade/**/*.jade', ['jade']);
     gulp.watch('app/js/*.js', browserSync.reload);

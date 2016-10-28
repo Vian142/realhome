@@ -1,2 +1,243 @@
-* {
+@import 'parts/font';
+
+/* main style mixin */
+
+/*Fonts*/
+$font-family-1: 'Noto Sans', sans-serif; // Raleway
+$font-family-2: 'Noto Serif', serif; //
+$font-family-3: 'Playfair Display', serif; //
+$font-family-4: 'Helvetica', sans-serif; // Helvetica
+/*color*/
+$color-main: #3c3c3c;
+$color-text: #797979;
+$color-white: #ffffff;
+$color-red: #e2574c;
+
+/*---*/
+
+img {
+  max-width: 100%;
+  width: 100%;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.content-title {
+  font-size: 37px;
+  font-family: $font-family-1;
+  color: rgb(60, 60, 60);
+  line-height: 1.351;
+  margin: 0;
+}
+
+p {
+  font-family: $font-family-3;
+  font-size: 16px;
+  color: $color-text;
+  line-height: 1.688;
+  text-align: left;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 3px;
+  background-color: $color-white;
+
+  font-family: $font-family-1;
+  font-size: 16px;
+  color: $color-main;
+  border: 1px solid $color-main;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  transition: all 0.2s ease;
+
+  &:focus,
+  &:hover {
+    color: $color-main;
+    background: transparent;
+  }
+}
+
+.btn-red {
+  background-color: $color-red;
+  color: $color-white;
+  border: 1px solid $color-red;
+  &:focus,
+  &:hover {
+    color: $color-red;
+    background: transparent;
+  }
+}
+
+.line-right {
+  &:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 10px 0 0 auto;
+    background: $color-main;
+  }
+}
+
+/* main style */
+
+@import "parts/header";
+@import "parts/social-icon";
+@import "parts/breadcrumbs";
+
+.section-slider {
+  background-image: url('../img/slider/slide-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+.section-offering-content {
+  padding: 50px 0;
+  &__wrapper {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    &__block {
+      &__title {
+        font-size: 36px;
+        font-family: $font-family-1;
+        color: $color-main;
+        line-height: 1.2;
+        font-weight: normal;
+        font-style: normal;
+        text-align: right;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+.left-content {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.right-content {
+  padding: 0 0.9em;
+  text-align: left;
+}
+
+/* --- */
+
+@import "parts/features";
+
+@import "parts/gallery-section";
+
+/* agents section*/
+.section-agents {
+  padding: 20px 0 0;
+  background: #fff;
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  &__title {
+    font-size: 45px;
+    font-family: $font-family-1;
+    color: $color-main;
+    line-height: 1;
+    font-weight: normal;
+    text-align: left;
+    margin: 10px 0 5px;
+    padding: 0;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 100%;
+      max-width: 150px;
+      background: $color-red;
+      margin-top: 15px;
+      height: 3px;
+      border-radius: 2px;
+    }
+  }
+
+  &__left-block {
+    flex: 0 0 30%;
+  }
+  &__right-block {
+    flex: 1 1 70%;
+    align-self: center;
+  }
+}
+
+.content-agent {
+  &__img-wrap {
+    display: flex;
+    flex-direction: column;
+    &__image {
+      margin: auto 0 0 0;
+    }
+  }
+  &__agent-name {
+    font-size: 25px;
+    font-family: $font-family-3;
+    color: $color-main;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+  }
+  &__description-agent {
+  }
+  &__agent-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    margin: 0;
+    &__item {
+      list-style: none;
+      margin: 5px 10px 5px 0;
+      color: $color-text;
+      font-size: 16px;
+      &__link {
+        font-family: $font-family-3;
+        font-size: 16px;
+        color: $color-text;
+        line-height: 1.5;
+        font-weight: bold;
+        font-style: normal;
+        text-align: left;
+        text-decoration: none;
+
+        &:focus,
+        &:hover {
+          color: $color-red;
+        }
+      }
+    }
+  }
+}
+
+@import "parts/get-started";
+
+@import "parts/clients-section";
+
+@import "parts/our-team";
+
+
+@import "parts/footer";
