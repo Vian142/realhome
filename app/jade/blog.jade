@@ -1,0 +1,107 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title RealHome index
+        meta(name='description', content='')
+        meta(name='robots', content='noindex, nofollow')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+        meta(name='theme-color', content='#2f8eaa')
+        link(rel='stylesheet', href='css/libs.min.css')
+        link(rel='stylesheet', href='css/main.css')
+        link(rel='stylesheet', href='css/media.css')
+    body
+        include parts/header
+
+        .breadcrumbs-container.container
+            ul.breadcrumbs-list
+                li.breadcrumbs-list__item
+                    a(href="#").breadcrumbs-list__item__link
+                        | Home
+                    i.fa.fa-angle-right.breadcrumbs-list__item__icon
+                li.breadcrumbs-list__item.breadcrumbs-list__item--active
+                    | Blog
+
+        .content-container
+            .main-content
+                .list-post-block
+                    .list-post-block__post-container
+                        .list-post-block__post-container__title-post
+                            a(href="#").list-post-block__post-container__title-post__link
+                                | Point of Architecture
+                        .list-post-block__post-container__thumbnail-post
+                            img(src="img/image/image-1.jpg").list-post-block__post-container__thumbnail-post__image
+                        .list-post-block__post-container__content-post
+                            P
+                                | Vitapibus ac scelerisque vitae pede.
+                                | Donec eget tellus non erat lacinia fertum.
+                                | Donec in velit vel ipsum auctovinar. Proin
+                                | umcorper urna et felisstibulum iaculis lacinia
+                                | est. Proin dictum elem entum velit fusce euismod.
+                                | Aenean commodo ligula eget dolor. Aenean massa.
+                                | Lorem ipsum dolor sit amet, consec tetuer adipis
+                                | elit, aliquam eget nibh etlibura. Lorem sitamet,
+                                | consetetur sadipscing elitr.
+                        .list-post-block__post-container__btn-wrap
+                            a(href="#").list-post-block__post-container__btn-wrap__btn-more.btn.btn-red
+                                | Read More
+
+                    .list-post-block__post-container
+                        .list-post-block__post-container__title-post
+                            a(href="#").list-post-block__post-container__title-post__link
+                                | Aliquam Erat Volutpat
+                        .list-post-block__post-container__thumbnail-post
+                            img(src="img/image/image-2.jpg").list-post-block__post-container__thumbnail-post__image
+                        .list-post-block__post-container__content-post
+                            P
+                                | Vitapibus ac scelerisque vitae pede.
+                                | Donec eget tellus non erat lacinia fertum.
+                                | Donec in velit vel ipsum auctovinar. Proin
+                                | umcorper urna et felisstibulum iaculis lacinia
+                                | est. Proin dictum elem entum velit fusce euismod.
+                                | Aenean commodo ligula eget dolor. Aenean massa.
+                                | Lorem ipsum dolor sit amet, consec tetuer adipis
+                                | elit, aliquam eget nibh etlibura. Lorem sitamet,
+                                | consetetur sadipscing elitr.
+                        .list-post-block__post-container__btn-wrap
+                            a(href="#").list-post-block__post-container__btn-wrap__btn-more.btn.btn-red
+                                | Read More
+
+                    .list-post-block__post-container
+                        .list-post-block__post-container__title-post
+                            a(href="#").list-post-block__post-container__title-post__link
+                                | Mauris Posuere
+                        .list-post-block__post-container__thumbnail-post
+                            img(src="img/image/image-3.jpg").list-post-block__post-container__thumbnail-post__image
+                        .list-post-block__post-container__content-post
+                            P
+                                | Vitapibus ac scelerisque vitae pede.
+                                | Donec eget tellus non erat lacinia fertum.
+                                | Donec in velit vel ipsum auctovinar. Proin
+                                | umcorper urna et felisstibulum iaculis lacinia
+                                | est. Proin dictum elem entum velit fusce euismod.
+                                | Aenean commodo ligula eget dolor. Aenean massa.
+                                | Lorem ipsum dolor sit amet, consec tetuer adipis
+                                | elit, aliquam eget nibh etlibura. Lorem sitamet,
+                                | consetetur sadipscing elitr.
+                        .list-post-block__post-container__btn-wrap
+                            a(href="#").list-post-block__post-container__btn-wrap__btn-more.btn.btn-red
+                                | Read More
+                .main-content__pagination-wrap
+                    ul.pagination-list.pagination-list--left
+                        li.pagination-list__item
+                            a(href="#").pagination-list__item__link
+                                | 1
+                        li.pagination-list__item.pagination-list__item--active
+                            | 2
+                        li.pagination-list__item
+                            a(href="#").pagination-list__item__link
+                                | 3
+                        li.pagination-list__item
+                            a(href="#").pagination-list__item__link
+                                | 4
+
+            include parts/sidebar
+
+        include parts/footer

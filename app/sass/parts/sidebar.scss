@@ -1,0 +1,112 @@
+.sidebar-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+  &__item {
+    box-sizing: border-box;
+    padding: 0px 10px 10px;
+    margin: 5px 0 20px;
+    &__title {
+      font-size: 20px;
+      font-family: $font-family-1;
+      color: $color-main;
+      line-height: 1.5;
+      text-align: left;
+      font-weight: normal;
+      font-style: normal;
+      padding: 0 0 5px;
+      margin-bottom: 10px;
+    }
+    &__content {
+    }
+  }
+}
+
+/* sidebar elements */
+
+/* categor */
+.sidebar-categories-list {
+  padding: 0;
+  margin: 0;
+  &__item {
+    list-style: none;
+    padding: 5px 0 10px;
+    &__link {
+      font-size: 16px;
+      font-family: $font-family-1;
+      color: $color-text;
+      line-height: 1;
+      text-align: left;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      &:focus,
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* sidebar-archives */
+.sidebar-archives-list {
+  padding: 0;
+  margin: 0;
+  &__item {
+    list-style: none;
+    padding: 5px 0 10px;
+    &__link {
+      font-size: 16px;
+      font-family: $font-family-1;
+      color: $color-text;
+      line-height: 1;
+      text-align: left;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      &:focus,
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* recent post */
+.recent-post-list {
+  &__item {
+    padding: 0 0 10px;
+    margin-bottom: 25px;
+    &__title-post {
+      &__link {
+        font-size: 16px;
+        font-family: $font-family-1;
+        color: $color-main;
+        line-height: 1.5;
+        text-align: left;
+        font-weight: bold;
+        text-decoration: none;
+        &:focus,
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    &__text-post {
+      font-family: $font-family-3;
+      font-size: 14px;
+      color: $color-text;
+      line-height: 1.5;
+      text-align: left;
+    }
+    &__date-post {
+      padding: 10px 0;
+      font-size: 14px;
+      font-family: $font-family-3;
+      color: rgb(121, 121, 121);
+      font-weight: bold;
+      line-height: 1;
+      text-align: left;
+    }
+  }
+}

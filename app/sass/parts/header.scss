@@ -1,4 +1,6 @@
 .main-header {
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
   &__wrapper {
     display: flex;
     justify-content: space-between;
@@ -10,12 +12,11 @@
 .main-header__wrapper__logo-block {
   align-self: center;
   flex-shrink: 0;
-  &__logo-link{
+  &__logo-link {
     display: block;
     max-width: 190px;
 
-
-    &__img{
+    &__img {
     }
   }
 }

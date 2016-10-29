@@ -279,7 +279,6 @@ p {
 }
 
 /* page property */
-
 .section-catalog {
   &__title-section {
     padding: 5px 0;
@@ -293,11 +292,39 @@ p {
   }
 }
 
-
 @import "parts/catalog";
-
 /**/
+
+
+/* Blog page */
+.content-container{
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 10px 0 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.main-content{
+  padding-top: 10px;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  margin-right: 2%;
+}
+.sidebar-container{
+  padding-top: 15px;
+  flex: 0 0 330px;
+  margin-left: 2%;
+}
+
+
+@import "parts/blog";
+
+@import "parts/sidebar";
+
+/*---*/
 
 @import 'parts/get-subscribe';
 
+@import "parts/pagination";
 @import "parts/footer";
