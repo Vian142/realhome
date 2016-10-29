@@ -278,6 +278,25 @@ p {
   }
 }
 
+/* page property */
+
+.section-catalog {
+  &__title-section {
+    padding: 5px 0;
+    margin: 10px 0 15px;
+    font-size: 36px;
+    font-family: $font-family-1;
+    color: $color-main;
+    line-height: 1.111;
+    text-align: center;
+    font-weight: normal;
+  }
+}
+
+
+@import "parts/catalog";
+
+/**/
 
 @import 'parts/get-subscribe';
 
