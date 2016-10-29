@@ -122,8 +122,7 @@ p {
 /* main style */
 .main-header {
   -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
-  margin-bottom: 20px; }
+          box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15); }
   .main-header__wrapper {
     display: -webkit-box;
     display: -webkit-flex;
@@ -248,9 +247,14 @@ p {
       font-size: 1rem;
       line-height: 32px; }
 
+.breadcrumbs-container {
+  padding: 20px 0 5px;
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
 .breadcrumbs-list {
-  padding: 10px 0;
-  margin: 10px 0; }
+  padding: 5px 0;
+  margin: 5px 0; }
   .breadcrumbs-list--center {
     text-align: center; }
   .breadcrumbs-list__item {
@@ -1008,6 +1012,126 @@ p {
       text-align: left; }
   .list-post-block__post-container__btn-wrap {
     padding: 15px 0 15px; }
+
+/* blog-post styles*/
+.post-container__title-post {
+  font-size: 36px;
+  font-family: "Noto Sans", sans-serif;
+  color: #3c3c3c;
+  line-height: 1.2;
+  text-align: left;
+  margin: 0;
+  padding: 0; }
+
+.post-container__description-content-post {
+  padding: 20px 0; }
+
+.post-container__info-post {
+  margin: 10px 0;
+  padding: 20px 0;
+  border-top: 2px solid #f0f4f5;
+  border-bottom: 2px solid #f0f4f5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Helvetica", sans-serif;
+  font-size: 12px;
+  color: #797979;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1;
+  text-align: left; }
+  .post-container__info-post__date-post {
+    margin-right: 10px; }
+    .post-container__info-post__date-post:after {
+      display: inline-block;
+      font-family: "Noto Sans", sans-serif;
+      content: ' / ';
+      font-weight: bold;
+      margin-left: 10px; }
+  .post-container__info-post__author-post {
+    margin-right: 10px; }
+    .post-container__info-post__author-post:after {
+      display: inline-block;
+      font-family: "Noto Sans", sans-serif;
+      content: ' / ';
+      font-weight: bold;
+      margin-left: 10px; }
+  .post-container__info-post__comments-number {
+    margin-right: 10px;
+    color: #e2574c; }
+
+/* author-post block */
+.author-post-block {
+  background: #f6f6f6;
+  padding: 25px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap; }
+  .author-post-block__avatar-author {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 150px;
+        -ms-flex: 0 0 150px;
+            flex: 0 0 150px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .author-post-block__avatar-author__wrapper-image {
+      width: 100px;
+      height: 100px;
+      -webkit-border-radius: 5px;
+              border-radius: 5px;
+      overflow: hidden; }
+      .author-post-block__avatar-author__wrapper-image__image {
+        max-width: 100%;
+        width: 100%; }
+  .author-post-block__info-author__name-author {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    color: #242424;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-align: left; }
+  .author-post-block__info-author__description-author {
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #797979;
+    line-height: 1.5;
+    font-weight: normal;
+    text-align: left; }
+  .author-post-block__info-author__more-post {
+    padding: 10px 0 5px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #3c3c3c;
+    font-weight: bold;
+    text-transform: uppercase; }
+    .author-post-block__info-author__more-post__link {
+      font-family: "Noto Sans", sans-serif;
+      font-size: 12px;
+      color: #2a8da6;
+      text-decoration: none; }
 
 .sidebar-container {
   -webkit-box-sizing: border-box;

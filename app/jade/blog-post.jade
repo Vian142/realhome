@@ -1,0 +1,112 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title Blog-post
+        meta(name='description', content='')
+        meta(name='robots', content='noindex, nofollow')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+        meta(name='theme-color', content='#2f8eaa')
+        link(rel='stylesheet', href='css/libs.min.css')
+        link(rel='stylesheet', href='css/main.css')
+        link(rel='stylesheet', href='css/media.css')
+    body
+        include parts/header
+
+        .breadcrumbs-container.container
+            ul.breadcrumbs-list
+                li.breadcrumbs-list__item
+                    a(href="#").breadcrumbs-list__item__link
+                        | Home
+                    i.fa.fa-angle-right.breadcrumbs-list__item__icon
+                li.breadcrumbs-list__item.breadcrumbs-list__item--active
+                    | Blog
+
+        .content-container
+            .main-content
+                .post-container
+                    h1.post-container__title-post
+                        | Point of Architecture
+                    .post-container__description-content-post
+                        P
+                            | Vitapibus ac scelerisque vitae pede.
+                            | Donec eget tellus non erat lacinia fertum.
+                            | Donec in velit vel ipsum auctovinar. Proin
+                            | umcorper urna et felisstibulum iaculis lacinia
+                            | est. Proin dictum elem entum velit fusce euismod.
+                            | Aenean commodo ligula eget dolor. Aenean massa.
+                            | Lorem ipsum dolor sit amet, consec tetuer adipis
+                            | elit, aliquam eget nibh etlibura. Lorem sitamet,
+                            | consetetur sadipscing elitr.
+                    .post-container__thumbnail-post
+                        img(src="img/image/image-1.jpg").post-container__thumbnail-post__image
+                    .post-container__content-post
+                        P
+                            | Vitapibus ac scelerisque vitae pede.
+                            | Donec eget tellus non erat lacinia fertum.
+                            | Donec in velit vel ipsum auctovinar. Proin
+                            | umcorper urna et felisstibulum iaculis lacinia
+                            | est. Proin dictum elem entum velit fusce euismod.
+                            | Aenean commodo ligula eget dolor. Aenean massa.
+                            | Lorem ipsum dolor sit amet, consec tetuer adipis
+                            | elit, aliquam eget nibh etlibura. Lorem sitamet,
+                            | consetetur sadipscing elitr.
+                        P
+                            | Vitapibus ac scelerisque vitae pede.
+                            | Donec eget tellus non erat lacinia fertum.
+                            | Donec in velit vel ipsum auctovinar. Proin
+                            | umcorper urna et felisstibulum iaculis lacinia
+                            | est. Proin dictum elem entum velit fusce euismod.
+                            | Aenean commodo ligula eget dolor. Aenean massa.
+                            | Lorem ipsum dolor sit amet, consec tetuer adipis
+                            | elit, aliquam eget nibh etlibura. Lorem sitamet,
+                            | consetetur sadipscing elitr.
+                        p
+                            | umcorper urna et felisstibulum iaculis lacinia
+                            | est. Proin dictum elem entum velit fusce euismod.
+                            | Aenean commodo ligula eget dolor. Aenean massa.
+                        h2
+                            | Architect Can Advise To Plant Vines
+                        p
+                            | Quisque diam lorem interdum vitaapibus ac
+                            | scelerisque vitae pede. Donec eget tellus non
+                            | erat lacinia fertum. Donec in velit vel ipsum auctovinar.
+                            | Proin umcorper urna et felisstibulum iaculis lacinia est.
+                            | Proin dictum elem entum velit fusce euismod. Aenean
+                            | commodo ligula eget dolor. Aenean massa. Lorem ipsum
+                            | dolor sit amet, consec tetuer adipis elit, aliquam
+                            | eget nibh etlibura. Lorem ipsum dolor sitamet,
+                            | consetetur sadipscing elitr.
+                    .post-container__info-post
+                        .post-container__info-post__date-post
+                            | December 14, 2014
+                        .post-container__info-post__author-post
+                            | by Nick Frost
+                        .post-container__info-post__comments-number
+                            | 2 comments
+                    .post-container__author-post
+                        .author-post-block
+                            .author-post-block__avatar-author
+                                .author-post-block__avatar-author__wrapper-image
+                                    img(src="img/author/user-1.jpg").author-post-block__avatar-author__wrapper-image__image
+                            .author-post-block__info-author
+                                .author-post-block__info-author__name-author
+                                    | written by <span>Nick Frost</span>
+                                .author-post-block__info-author__description-author
+                                    p
+                                        | Nick Frost has more than 10 years
+                                        | experience in the communications industry,
+                                        | including writing for print and online
+                                        | publications, and design and editing.
+                                        | You can connect with her on Twitter @Jane and
+                                        | Google+.
+                                .author-post-block__info-author__more-post
+                                    | view all posts by
+                                    a(href="#").author-post-block__info-author__more-post__link
+                                        | Nick Frost
+
+
+            include parts/sidebar
+
+        include parts/footer

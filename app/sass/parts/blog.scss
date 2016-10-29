@@ -56,3 +56,133 @@
     }
   }
 }
+
+/* blog-post styles*/
+
+.post-container {
+  &__title-post {
+    font-size: 36px;
+    font-family: $font-family-1;
+    color: $color-main;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  &__description-content-post {
+    padding: 20px 0;
+  }
+  &__thumbnail-post {
+    &__image {
+    }
+  }
+  &__content-post {
+  }
+
+  &__info-post {
+    margin: 10px 0;
+    padding: 20px 0;
+    border-top: 2px solid #f0f4f5;
+    border-bottom: 2px solid #f0f4f5;
+    display: flex;
+
+    font-family: $font-family-4;
+    font-size: 12px;
+    color: $color-text;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+    &__date-post {
+      margin-right: 10px;
+
+      &:after{
+        display: inline-block;
+        font-family: $font-family-1;
+        content: ' / ';
+        font-weight: bold;
+        margin-left: 10px;
+      }
+    }
+    &__author-post {
+      margin-right: 10px;
+
+      &:after{
+        display: inline-block;
+        font-family: $font-family-1;
+        content: ' / ';
+        font-weight: bold;
+        margin-left: 10px;
+      }
+    }
+    &__comments-number {
+      margin-right: 10px;
+      color: $color-red;
+    }
+  }
+
+  &__author-post {
+
+  }
+}
+
+/* author-post block */
+.author-post-block {
+  background: #f6f6f6;
+  padding: 25px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  &__avatar-author {
+    box-sizing: border-box;
+    flex: 0 0 150px;
+    display: flex;
+    justify-content: center;
+    &__wrapper-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 5px;
+      overflow: hidden;
+      &__image {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+  &__info-author {
+    &__name-author {
+      font-family: $font-family-1;
+      font-size: 24px;
+      color: rgb(36, 36, 36);
+      line-height: 1.2;
+      text-transform: capitalize;
+      font-weight: normal;
+      margin: 0 0 10px 0;
+      padding: 0;
+      text-align: left;
+    }
+    &__description-author {
+      font-family: $font-family-3;
+      font-size: 14px;
+      color: $color-text;
+      line-height: 1.5;
+      font-weight: normal;
+      text-align: left;
+    }
+    &__more-post {
+      padding: 10px 0 5px;
+      font-family: $font-family-1;
+      font-size: 12px;
+      line-height: 1.5;
+      color: $color-main;
+      font-weight: bold;
+      text-transform: uppercase;
+      &__link {
+        font-family: $font-family-1;
+        font-size: 12px;
+        color: #2a8da6;
+        text-decoration: none;
+      }
+    }
+  }
+}

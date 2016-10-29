@@ -94,6 +94,12 @@ p {
 
 @import "parts/header";
 @import "parts/social-icon";
+
+.breadcrumbs-container{
+  padding: 20px 0 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
 @import "parts/breadcrumbs";
 
 .section-slider {
