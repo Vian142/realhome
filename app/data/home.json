@@ -1,0 +1,170 @@
+[
+  {
+    "index": 0,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Cetronia",
+      "state": "Maine"
+    },
+    "option_home": {
+      "area": 1221,
+      "badrooms": 2,
+      "bathroom": 7
+    }
+  },
+  {
+    "index": 1,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Tyro",
+      "state": "Arkansas"
+    },
+    "option_home": {
+      "area": 2169,
+      "badrooms": 1,
+      "bathroom": 4
+    }
+  },
+  {
+    "index": 2,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Dubois",
+      "state": "New Mexico"
+    },
+    "option_home": {
+      "area": 2584,
+      "badrooms": 2,
+      "bathroom": 7
+    }
+  },
+  {
+    "index": 3,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Snyderville",
+      "state": "Mississippi"
+    },
+    "option_home": {
+      "area": 2777,
+      "badrooms": 2,
+      "bathroom": 6
+    }
+  },
+  {
+    "index": 4,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Kieler",
+      "state": "Georgia"
+    },
+    "option_home": {
+      "area": 198,
+      "badrooms": 2,
+      "bathroom": 2
+    }
+  },
+  {
+    "index": 5,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Marienthal",
+      "state": "Connecticut"
+    },
+    "option_home": {
+      "area": 1758,
+      "badrooms": 2,
+      "bathroom": 3
+    }
+  },
+  {
+    "index": 6,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Thomasville",
+      "state": "South Carolina"
+    },
+    "option_home": {
+      "area": 2815,
+      "badrooms": 2,
+      "bathroom": 6
+    }
+  },
+  {
+    "index": 7,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Fostoria",
+      "state": "Utah"
+    },
+    "option_home": {
+      "area": 611,
+      "badrooms": 1,
+      "bathroom": 2
+    }
+  },
+  {
+    "index": 8,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Murillo",
+      "state": "Delaware"
+    },
+    "option_home": {
+      "area": 3981,
+      "badrooms": 1,
+      "bathroom": 4
+    }
+  },
+  {
+    "index": 9,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Nipinnawasee",
+      "state": "Puerto Rico"
+    },
+    "option_home": {
+      "area": 1971,
+      "badrooms": 1,
+      "bathroom": 7
+    }
+  },
+  {
+    "index": 10,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Matheny",
+      "state": "Oregon"
+    },
+    "option_home": {
+      "area": 1825,
+      "badrooms": 2,
+      "bathroom": 6
+    }
+  },
+  {
+    "index": 11,
+    "picture": "http://placehold.it/360x240",
+    "name": "",
+    "location": {
+      "city": "Eureka",
+      "state": "Nebraska"
+    },
+    "option_home": {
+      "area": 934,
+      "badrooms": 2,
+      "bathroom": 6
+    }
+  }
+]

@@ -210,7 +210,7 @@ html(lang='en')
                 .section-agents__right-block
                     h2.section-agents__title
                         | Our <b>Agents</b>
-                    .content-agent
+                    .content-agent#agents-container
                         h3.content-agent__agent-name
                             | John Dow
                         p.content-agent__description-agent
@@ -233,6 +233,10 @@ html(lang='en')
                                 i.fa.fa-envelope
                                 a(href="#").content-agent__agent-contacts__item__link
                                     | &nbsp; lisa.gerrard@realhome.com
+                    ul.content-agent__nav-list#agents-navigation
+                        li.content-agent__nav-list__item.content-agent__nav-list__item--active
+                        li.content-agent__nav-list__item
+                        li.content-agent__nav-list__item
         include parts/get-started
 
         section.section-clients
@@ -249,6 +253,5 @@ html(lang='en')
                         img(src="img/clients/client-3.png").clients-list__item__logo-client
                     .clients-list__item
                         img(src="img/clients/client-4.png").clients-list__item__logo-client
-
-
         include parts/footer
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
