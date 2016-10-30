@@ -206,11 +206,11 @@ html(lang='en')
             .section-agents__wrapper.container
                 .section-agents__left-block
                     .content-agent__img-wrap
-                        img(src="img/people/people-1.jpg").content-agent__img-wrap__image
+                        img(src="img/people/people-1.png").content-agent__img-wrap__image#agent-image
                 .section-agents__right-block
                     h2.section-agents__title
                         | Our <b>Agents</b>
-                    .content-agent#agents-container
+                    .content-agent#agent-container
                         h3.content-agent__agent-name
                             | John Dow
                         p.content-agent__description-agent
@@ -225,18 +225,9 @@ html(lang='en')
                             | dolore te feugait nulla nonummy nibh euismod
                             | tincidunt facilisi.
                         ul.content-agent__agent-contacts
-                            li.content-agent__agent-contacts__item
-                                i.fa.fa-phone
-                                a(href="#").content-agent__agent-contacts__item__link
-                                    | &nbsp; +7(123)456-78-99
-                            li.content-agent__agent-contacts__item
-                                i.fa.fa-envelope
-                                a(href="#").content-agent__agent-contacts__item__link
-                                    | &nbsp; lisa.gerrard@realhome.com
+
                     ul.content-agent__nav-list#agents-navigation
-                        li.content-agent__nav-list__item.content-agent__nav-list__item--active
-                        li.content-agent__nav-list__item
-                        li.content-agent__nav-list__item
+
         include parts/get-started
 
         section.section-clients
@@ -255,3 +246,4 @@ html(lang='en')
                         img(src="img/clients/client-4.png").clients-list__item__logo-client
         include parts/footer
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
+        script(src="js/main.js")

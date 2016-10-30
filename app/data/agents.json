@@ -1,46 +1,66 @@
 [
   {
     "index": 0,
-    "photo": "http://placehold.it/32x32",
+    "photo": "img/people/people-1.png",
     "name": {
-      "first": "Mcdowell",
-      "last": "Pope"
+      "first": "Myrna",
+      "last": "Montoya"
     },
-    "email": "mcdowell.pope@undefined.biz",
-    "phone": "+1 (874) 419-2198",
-    "about": "Reprehenderit cupidatat duis ea consectetur aliqua officia. Ut cupidatat enim deserunt officia elit. Qui officia irure enim qui esse reprehenderit Lorem. Labore qui non sint ut magna laborum exercitation elit minim aute ipsum. Sunt nisi aute fugiat officia incididunt do laboris cillum cillum duis."
+    "age": 40,
+    "about": "Mollit non commodo aliquip nisi aliquip cillum elit culpa proident enim dolor elit. Non do anim Lorem minim fugiat irure culpa. Qui labore proident elit officia nisi proident. Laboris est nulla tempor esse laborum pariatur sit anim. Aute cupidatat veniam deserunt non incididunt elit anim eiusmod enim nulla eiusmod fugiat aliquip. Veniam mollit Lorem id dolor excepteur aute nostrud elit quis cillum est cupidatat. Quis mollit occaecat Lorem eu aute quis reprehenderit ipsum.\r\n",
+    "position": "",
+    "contacts": {
+      "email": "myrnamontoya@exospeed.com",
+      "phone": "+1 (858) 477-2591",
+      "address": "433 Veterans Avenue, Brazos, Rhode Island, 8557"
+    }
   },
   {
     "index": 1,
-    "photo": "http://placehold.it/32x32",
+    "photo": "img/people/people-2.png",
     "name": {
-      "first": "Porter",
-      "last": "Conner"
+      "first": "Gilmore",
+      "last": "Evans"
     },
-    "email": "porter.conner@undefined.com",
-    "phone": "+1 (815) 519-3176",
-    "about": "Elit irure eu in et adipisicing et velit et excepteur qui. Excepteur quis deserunt dolore nisi veniam eu sit cupidatat eu pariatur ex velit ea eu. Fugiat sit pariatur sint sint consectetur incididunt ex consequat labore adipisicing ea occaecat voluptate."
+    "age": 32,
+    "about": "Enim duis pariatur eiusmod culpa deserunt pariatur ea cupidatat officia. Sit magna duis nisi exercitation nostrud Lorem. Aliquip est aliquip voluptate culpa reprehenderit velit. Ad Lorem enim et elit deserunt irure ullamco. Voluptate consequat aliqua cillum quis laborum ad non cupidatat nisi cillum labore cupidatat ea. Consectetur voluptate nostrud ut adipisicing magna ullamco minim in exercitation non in. Veniam sunt anim id irure cupidatat incididunt non amet laboris.\r\n",
+    "position": "",
+    "contacts": {
+      "email": "gilmoreevans@exospeed.com",
+      "phone": "+1 (994) 552-3899",
+      "address": "472 Elliott Place, Bennett, New Hampshire, 4544"
+    }
   },
   {
     "index": 2,
-    "photo": "http://placehold.it/32x32",
+    "photo": "img/people/people-3.png",
     "name": {
-      "first": "Lana",
-      "last": "Dunlap"
+      "first": "Anne",
+      "last": "Landry"
     },
-    "email": "lana.dunlap@undefined.info",
-    "phone": "+1 (804) 590-2919",
-    "about": "Consequat minim exercitation ullamco sint. Nulla sit id et enim. Cupidatat cillum deserunt magna fugiat non minim occaecat consectetur. Aute Lorem velit nulla magna elit dolor cillum tempor mollit aute sit. Incididunt magna exercitation ipsum Lorem exercitation fugiat aliqua commodo. Veniam dolore aute ad consequat eiusmod culpa. Occaecat veniam exercitation esse consequat eiusmod occaecat."
+    "age": 22,
+    "about": "Id consequat eiusmod sunt magna. Dolore nulla reprehenderit id nisi deserunt. Ut anim cillum labore amet mollit.\r\n",
+    "position": "",
+    "contacts": {
+      "email": "annelandry@exospeed.com",
+      "phone": "+1 (901) 494-2500",
+      "address": "789 Leonora Court, Lydia, Colorado, 8803"
+    }
   },
   {
     "index": 3,
-    "photo": "http://placehold.it/32x32",
+    "photo": "img/people/people-4.png",
     "name": {
-      "first": "Wiggins",
-      "last": "Guzman"
+      "first": "Villarreal",
+      "last": "Macias"
     },
-    "email": "wiggins.guzman@undefined.ca",
-    "phone": "+1 (908) 450-3537",
-    "about": "Aute dolore commodo ea sint fugiat elit id ex reprehenderit nostrud mollit. Labore sunt eiusmod consequat eu aute officia fugiat ea minim irure sit voluptate pariatur nulla. Ullamco non esse aliqua et proident quis et adipisicing aliqua cillum. Ex anim elit sit exercitation consectetur mollit voluptate. Id veniam esse deserunt dolor esse elit exercitation do. Sint non dolor velit magna commodo."
+    "age": 30,
+    "about": "Eu aliquip ad culpa do cupidatat laborum duis aliquip anim cupidatat reprehenderit cillum est non. Ad officia amet ea culpa esse eiusmod deserunt ut eu enim duis est ea magna. Lorem dolor aliquip anim incididunt velit culpa occaecat excepteur exercitation pariatur exercitation quis Lorem do. Fugiat irure duis elit non aliqua irure et velit nisi eiusmod amet occaecat.\r\n",
+    "position": "",
+    "contacts": {
+      "email": "villarrealmacias@exospeed.com",
+      "phone": "+1 (954) 426-2725",
+      "address": "465 Java Street, Kenvil, Northern Mariana Islands, 7094"
+    }
   }
 ]
